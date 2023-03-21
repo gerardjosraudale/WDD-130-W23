@@ -101,6 +101,20 @@ nav {
     color: rgb(21, 97, 228);
 }
 
+section.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+
+}
+@media(max-width:786px) {
+    section.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+}
+
 .join:hover {
     background-color: goldenrod;
     
@@ -281,3 +295,4 @@ main section img {
     }
 
 }
+
