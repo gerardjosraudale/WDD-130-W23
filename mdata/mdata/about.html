@@ -5,25 +5,46 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
+
+		
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
+			line-height: 1.6;
 		}
 		
 		header {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
+   			background-color: #333;
+    		color: #fff;
+    		padding: 10px;
+   			text-align: center;
+  		}
+
+		header h1 {
+    		margin: 0;
+  		}
+
+		header nav ul {
+    		list-style: none;
+    		margin: 0;
+    		padding: 0;
+  		}
 		
-		h1 {
-			margin: 0;
-		}
+		  header nav li {
+    		display: inline-block;
+    		margin: 0 10px;
+  		}
+  
+		  header nav a {
+    		color: #fff;
+    		text-decoration: none;
+  		}
+		
 		
 		main {
-			margin: 20px;
+			margin: 20px auto;
+    		max-width: 800px;
 			text-align: justify;
 		}
 		
@@ -37,15 +58,28 @@
 			margin: 0 auto;
 			max-width: 100%;
 		}
+
+		footer {
+    		background-color: #ccc;
+    		color: #333;
+    		padding: 10px;
+    		text-align: center;
+  }
 	</style>
 </head>
 <body style="background-color:#EAE2B7;">
 	<header>
 		<h1>About Us</h1>
+		<nav>
+			<ul>
+				<li><a href="/mdata/site-plan.html">Home</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
 	</header>
 	
 	<main>
-		<p><img src="mdata/images/logo.jpeg" alt="Company Logo"></p>
+		<p><img src="/mdata/mdata/images/logo.jpeg" alt="Company Logo"></p>
 
         <h2> Mission Statement</h2>
 		<p>Metadata is the biggest little problem plaguing the music industry.  With our website, we make this process easy to write the underlying information 
@@ -54,6 +88,9 @@
             <p> MDTA started with producer Josh looking to improve the metadata process for the music industry. As a producer, he knew 
                 the importance of a good records so everybody in the record label can get paid of what they work for. </p>
         <h2> Our Clients</h2>
-        <p><img src="mdata/images/images.jpeg" alt=" labels"></p>
+        <p><img src="/mdata/mdata/images/images.jpeg" alt=" labels"></p>
+	<footer>
+		<p> &copy; MTDATA</p>
+	</footer>
 </body>
 </html>
