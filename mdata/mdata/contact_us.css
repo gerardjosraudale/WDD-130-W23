@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  main {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+  }
+  
+  main h2 {
+    margin-top: 40px;
+  }
+  
+
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Style the input fields */
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  /* Style the reset button */
+  input[type=reset] {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+  }
+
+  /* Clear floats after the form */
+  .form:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Style the form heading */
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  /* Style the error message */
+  .error {
+    color: red;
+  }
+
+    /* Style the footer */
+    footer {
+        background-color: #ccc;
+        color: #333;
+        padding: 10px;
+        text-align: center;
+    }
