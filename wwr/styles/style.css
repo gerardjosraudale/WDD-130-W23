@@ -11,9 +11,7 @@
 
 content {
     max-width: 1600px;
-}
-content {
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
   nav a {
@@ -116,10 +114,6 @@ section.cards {
     
 }
 
-#background {
-    background-color: #d9c2a3;
-}
-
 
 footer {
     background-color: rgba(95, 154, 87, 0.952);
@@ -172,6 +166,7 @@ footer .social img {
 
 home-grid { 
     display: grid
+    grid-template columns 10px;
 }
 
 .rivers-card {
@@ -204,6 +199,7 @@ home-grid {
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
+    background-color: #d9c2a3;
 }
 
 .mountains {
