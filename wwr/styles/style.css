@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
+
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
@@ -23,13 +24,11 @@ content {
     justify-content: space-around;
 }
 
-  #hero-msg h1 {
-    text-align: center;
-}
-  #hero-msg h4 {
+  #hero-msg h1,#hero-msg h4 {
     text-align: center;
     color:white;
-  }
+}
+
 
 .button-box {
     text-align: center;
@@ -94,19 +93,13 @@ nav {
     background-color: goldenrod;
     color: rgb(21, 97, 228);
 }
-
+@media(max-width:786px) {
 section.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
 
 }
-@media(max-width:786px) {
-    section.cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto auto;
-    }
 }
 
 .join:hover {
@@ -190,9 +183,9 @@ home-grid {
 
 .card-img {
     border: 10px solid #d9c2a3;
-    width: 100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+   
 }
 
 #background {
